@@ -7,11 +7,10 @@
 }
 
 /* general styles */
-.col,
-h1,
+p, .col,
+h1,h2,h3,h4,h5,h6,
 div {
     margin: 0px;
-    padding: 0px;
 }
 
 body {
@@ -42,19 +41,23 @@ header .row * {
 
 /* jumbotron */
 .jumbotron {
+    border:0;
+    margin-bottom: 0;
+    border-radius: 0;
     position:fixed;
     z-index: -1;
-    background: url("../images/hero.webp") no-repeat center top;
+    width: 100%;
+    background: url("../images/hero.webp") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 300px;
-    padding: 5%;
+    min-height: 400px;
+    padding: 2em;
     overflow: auto;
 }
 
-.jumbotron p {
+.jumbotron div {
     position: relative;
     background-color: rgba(0,0,0,0.7);
     border-radius: 6px;
@@ -63,6 +66,6 @@ header .row * {
 }
 
 .main-section {
-    margin-top: 300px;
+    margin-top: 400px;
     background-color: white;
 }
