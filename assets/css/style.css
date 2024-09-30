@@ -14,9 +14,22 @@ body {
 }
 
 /* Header */
+header {
+    position: absolute;
+    z-index: 3;
+}
+
 header .row {
+    position:relative;
     padding: 5px 20px;
+    background-color: rgba(0000007a);
 }
 header h1 {
-    font-size: 2em;
+    font-size: 2rem;
+}
+
+/* jumbotron */
+.jumbotron {
+    background: url("../images/hero.webp") no-repeat center top;
+    min-height: 300px;
 }
