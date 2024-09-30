@@ -95,7 +95,6 @@ header .row * {
     border: 0;
     margin-bottom: 0;
     border-radius: 0;
-    z-index: -1;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
