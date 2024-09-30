@@ -12,3 +12,11 @@ div {
 body {
     font-family: "Comfortaa", sans-serif;
 }
+
+/* Header */
+header .row {
+    padding: 5px 20px;
+}
+header h1 {
+    font-size: 2em;
+}
