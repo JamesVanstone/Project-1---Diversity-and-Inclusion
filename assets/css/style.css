@@ -7,7 +7,7 @@
 }
 
 /* general styles */
-p, .col,
+p, .col, i,
 h1,h2,h3,h4,h5,h6,
 div {
     margin: 0px;
@@ -65,7 +65,15 @@ header .row * {
     margin-bottom: 0;
 }
 
+
+/* Main Section */
 .main-section {
     margin-top: 400px;
     background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #6f6534;
+    min-height: 100px;
 }
