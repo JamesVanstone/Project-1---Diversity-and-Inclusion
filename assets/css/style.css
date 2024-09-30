@@ -1,2 +1,14 @@
 /* Import Comfortaa font */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+/* general styles */
+.col,
+h1,
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Comfortaa", sans-serif;
+}
