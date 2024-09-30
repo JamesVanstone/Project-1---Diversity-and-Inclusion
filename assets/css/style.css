@@ -1,6 +1,11 @@
 /* Import Comfortaa font */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+.light-text
+{
+    color: #fafafa;
+}
+
 /* general styles */
 .col,
 h1,
