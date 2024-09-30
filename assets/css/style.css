@@ -15,10 +15,6 @@
     background-color: #71250eff;
 }
 
-.brown-bg-tsp {
-    background-color: #71250e88;
-}
-
 .green-bg {
     background-color: #6f6534ff;
 }
@@ -27,16 +23,34 @@
     background-color: #365365ff;
 }
 
+.brown-bg-tsp {
+    background-color: #71250e88;
+}
+
+.blue-bg-tsp {
+    background-color: #36536588;
+}
+
+.black-bg-tsp {
+    background-color: #00000088;
+}
+
 /* Text Palette */
 
-.light-text
-{
+.light-text {
     color: #fafafa;
 }
 
 /* general styles */
-p, .col, i,
-h1,h2,h3,h4,h5,h6,
+p,
+.col,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 div {
     margin: 0px;
 }
@@ -66,15 +80,23 @@ header .row * {
     font-weight: 700;
 }
 
+/* Hero Image */
+.hero {
+    position: fixed;
+    background: url("../images/hero.webp") no-repeat center center/cover;
+    height: 100vh;
+    min-width: 100vw;
+    z-index: -2;
+}
+
 /* jumbotron */
 .jumbotron {
-    border:0;
+    background-color: transparent;
+    border: 0;
     margin-bottom: 0;
     border-radius: 0;
-    position:fixed;
     z-index: -1;
     width: 100%;
-    background: url("../images/hero.webp") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,13 +111,19 @@ header .row * {
     border-radius: 6px;
     padding: 6px;
     margin-bottom: 0;
-    font-weight:700;
+    font-weight: 700;
 }
 
 
 /* Main Section */
 .main-section {
-    margin-top: 400px;
+    /* margin-top: 472px; */
+    padding: 10px;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Footer */
