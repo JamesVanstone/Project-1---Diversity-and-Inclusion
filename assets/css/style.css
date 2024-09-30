@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -28,8 +28,8 @@ header {
 }
 
 header .row {
-    padding: 10px 20px;
-    background-color: rgba(0000007a);
+    padding: 20px 40px;
+    background-color: rgba(0,0,0,0.7);
 }
 
 header .row * {
@@ -42,6 +42,8 @@ header .row * {
 
 /* jumbotron */
 .jumbotron {
+    position:fixed;
+    z-index: -1;
     background: url("../images/hero.webp") no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -49,4 +51,18 @@ header .row * {
     background-size: cover;
     min-height: 300px;
     padding: 5%;
+    overflow: auto;
+}
+
+.jumbotron p {
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 0;
+}
+
+.main-section {
+    margin-top: 300px;
+    background-color: white;
 }
