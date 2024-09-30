@@ -117,6 +117,10 @@ header .row * {
 /* Main Section */
 .main-section {
     /* margin-top: 472px; */
+    padding : 0;
+}
+
+.main-section > div > div {
     padding: 10px;
 }
 
