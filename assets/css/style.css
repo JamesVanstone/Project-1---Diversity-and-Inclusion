@@ -92,10 +92,11 @@ ul {
 
 ul li {
     display:inline;
-    margin: 10px;    
+    margin: 10px;
 }
 
-ul li a {
+ul li a,
+ul li .btn {
     min-width: 130px;
     display:flex;
     justify-content: space-around;
@@ -106,7 +107,8 @@ ul li a {
     border-radius: 2px;
 }
 
-ul li a:hover {
+ul li a:hover,
+ul li .btn:hover {
     background-color: #fafafa;
     color: #eb781bff;
 }
@@ -126,15 +128,27 @@ nav .row {
 }
 
 nav .row * {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
 }
 
-nav li a {
+nav li a, 
+nav li .btn {
     background-color: #cc5221ff;
+}
+
+nav .menu-medium li {
+    padding: 0;
+    margin: 0;
+}
+
+nav .menu-medium li a,
+nav .menu-medium li .btn {
+    padding: 0 10px;
+    margin: 0;
 }
 
 /* Hero Image */
@@ -186,3 +200,5 @@ nav li a {
 footer {
     border-width: 0;
 }
+
+/* Modal */
