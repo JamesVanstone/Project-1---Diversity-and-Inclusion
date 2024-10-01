@@ -60,6 +60,11 @@ a {
     color: inherit;
 }
 
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: "Comfortaa", sans-serif;
 }
@@ -130,10 +135,6 @@ nav .row * {
     padding : 0;
 }
 
-.main-section > div > div {
-    padding: 10px;
-}
-
 .card {
     padding: 10px;
     margin: 10px;
@@ -147,8 +148,30 @@ footer {
 
 footer ul {
     list-style-type: none;
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
 }
 
 footer li {
     display:inline;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: #eb781bff;
+    color:#fafafa;
+    
+}
+
+footer li:hover {
+    background-color: #fafafa;
+    color: #eb781bff;
+}
+
+footer li a {
+    width: 130px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
