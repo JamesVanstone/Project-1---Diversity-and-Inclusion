@@ -63,7 +63,7 @@ a {
     color: inherit;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: inherit;
 }
@@ -73,16 +73,16 @@ body {
 }
 
 .row {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
     list-style-type: none;
-    height:100%;
-    width:100%;
-    padding:0;
-    margin:0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,19 +91,19 @@ ul {
 }
 
 ul li {
-    display:inline;
+    display: inline;
     margin: 10px;
 }
 
 ul li a,
 ul li .btn {
     min-width: 130px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     background-color: #eb781bff;
-    color:#fafafa;
+    color: #fafafa;
     border-radius: 2px;
 }
 
@@ -120,7 +120,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 3;
-    padding:0;
+    padding: 0;
 }
 
 nav .row {
@@ -135,7 +135,7 @@ nav .row * {
     font-weight: 700;
 }
 
-nav li a, 
+nav li a,
 nav li .btn {
     background-color: #cc5221ff;
 }
@@ -188,7 +188,7 @@ nav .menu-medium li .btn {
 /* Main Section */
 .main-section {
     /* margin-top: 472px; */
-    padding : 0;
+    padding: 0;
 }
 
 .card {
@@ -203,20 +203,22 @@ footer {
 
 /* Modal */
 
-.btn-success,
-.btn-secondary,
-.btn-primary {
-    outline: none;
+/* Buttons */
+
+.modal button {
+    border: 4px solid transparent;
+    background-color: #eb781bff;
+    color: #fafafa;
 }
 
-.btn-success {
-
+.modal button:hover {
+    border: 4px solid transparent;
+    background-color: #fafafa;
+    color: #eb781bff;
 }
 
-.btn-secondary {
-
-}
-
-.btn-primary {
-
+.modal-body button:active {
+    border: 4px solid #eb781bff;
+    background-color: #fafafa;
+    color: #eb781bff;
 }
