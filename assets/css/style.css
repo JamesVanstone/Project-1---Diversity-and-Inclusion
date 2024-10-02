@@ -236,13 +236,21 @@ ol li {
 }
 
 .requirements-list li {
+    margin:0;
+}
+
+.requirements-list li p,
+.requirements-list li a {
     margin: 5px;
     padding: 5px 15px;
     background-color: #6f6534ff;
     border-radius: 10px;
-    
 }
 
+.requirements-list li a:hover {
+    background-color: #fafafa;
+    color: #6f6534ff;
+}
 
 /* Footer */
 footer {
