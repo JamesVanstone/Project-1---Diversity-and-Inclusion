@@ -114,19 +114,18 @@ The process of making this website was quite fun, though finding the right conte
 
 ### Successes
 1. Responsiveness was good, I enjoyed setting up the different layouts for different screen sizes.
-2. I enjoyed 
+2. I enjoyed using some of the bootstrap templates for things such as the carousel and the modal. They were quick to implement and satisfying when in.
 
 ### Challenges
-
+1. I was ill on day two which meant that I had to do a lot of work outside of work hours to catch up. Day two was very rough and I was feeling quite down because of it.
+2. There were some issues caused by excess margins and padding that I spend several hours trying to fix, which was very frustrating.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+Overall I am quite satisfied with the project, though I didn't get quite as much done as I wanted due to loosing most of day 2 to tireness and feeling unwell.
 
 ## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+[Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+[Fontawesome for Icons](https://fontawesome.com/)
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+Switching things up to be better laid out on two or three pages would be nice. Also, adding more images to make the page more visually interesting would be a good thing to add in the future.
