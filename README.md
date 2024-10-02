@@ -53,17 +53,20 @@ The target audience consists of two groups of users. People looking for informat
 - I ensured that the buttons have aria attributes on them for ease of use with screen readers.
 - I have tried to use a high-contrast colour scheme to make navigating the web-page easier.
 
-## AI Tools Usage
-
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
-
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
+1. List of tips of how to implement diversity and inclusivity in your company.
+ - Implemented as a carousel in each of the sections.
+
+2. A clear set of definitions of diversity and inclusivity.
+ - Implemented as the first card in each of the two sections.
+
+3. Form for submitting feature requests.
+ - Implemented as a modal that pops up when you click on the "contact" button in the nav bar.
+
+4. Clearly stated information about the importance of diversity and inclusion.
+ - Implemented as a card in each of the sections on the main page.
 
 (Include all must-have features)  
 **Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
@@ -84,48 +87,37 @@ Describe how DALL-E was used for image generation, including examples of success
 
 ## AI Tools Usage
 
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
+### ChatGPT
+I used ChatGPT to assist me when I needed help remembering which input field to use. I asked it what to use for a multi-line text input field and it told me to use a textarea tag, which I then impelemnted. That is all.
 
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+Testing on different screen sizes showed that the website is responsive to devices. The buttons work as they should and send the user to the correct places.
+
+1. I used chrome developer tools extensively over the course of the project to help identify issues and fix them.
+
+2. When testing on 
+
+3. I found an issue caused by the carousel where the size of the element changes causing elements to be pushed around.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
-
-## AI Tools Usage
-
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+I validated the website using the W3C validator for both HTML and CSS
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
-
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
+I deployed the project using github pages. I went to the repo settings and to the pages section, then deployed the main branch. I did not have any issues during the deployment process. [Website is deployed here](https://jamesvanstone.github.io/Project-1---Diversity-and-Inclusion/)
 
 ## Reflection on Development Process
+The process of making this website was quite fun, though finding the right content to put in the sections was something I found challenging. I also found bootstrap awkward to work with and did not enjoy that part of the process. I will be looking for another framework to use in the future, as bootstrap has too many default styles that I had to over-write to produce the layout I wanted.
 
 ### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+1. Responsiveness was good, I enjoyed setting up the different layouts for different screen sizes.
+2. I enjoyed 
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
+
 
 ### Final Thoughts
 Provide any additional insights gained during the project and thoughts on the overall process.  
