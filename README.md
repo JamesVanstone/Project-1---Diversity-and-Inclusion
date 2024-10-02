@@ -19,34 +19,39 @@ The target audience consists of two groups of users. People looking for informat
   **Acceptance Criteria:** Form for submitting feature requests.
 - **User Story 4:** As a business executive, I want to know why diversity is important for my business.
   **Acceptance Criteria:** Clearly stated information about the importance of diversity and inclusion.
+
 ### Should-Have User Stories
-- **User Story:** A user is red-green colour-blind, so I want the site to use high contrast colours to make it easier to navigate.
-  **Acceptance Criteria:** High Contrast Colour Scheme that is readable when checked against a colour-blindness test
+- **User Story:** As a Business Executive, I need information about what the legal requirements for diversity and inclusion are within my company.
+  **Acceptance Criteria:** Links to official government guidance for legal requirements.
 - **User Story:** As a contributor to the page, I want to have a quick way to find our social media links to share any updates we make.
   **Acceptance Criteria:** Section for social media links in footer.
 
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
-
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story:** A user is red-green colour-blind, so I want the site to use high contrast colours to make it easier to navigate.
+  **Acceptance Criteria:** High Contrast Colour Scheme that is readable when checked against a colour-blindness test
 
-(Include any could-have features considered for future enhancements)  
 **Guidance:** Document any optional features that are nice to have but not essential.
 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+![Small Device Wireframe](assets/images/wireframes/wireframe-sm.png)
+
+![Medium Device Wireframe](assets/images/wireframes/wireframe-md.png)
+
+![Large Device Wireframe](assets/images/wireframes/wireframe-lg.png)
+
+![XL Device Wireframe](assets/images/wireframes/wireframe-xl.png)
+
+### Design Considerations
+- I chose a nice comfortable layout to my eyes that gives plenty of space.
+- I chose an autumnal colour scheme as it is the most relaxing time of the year in my opinion.
+- I chose comfortaa for my font as it is a google font that has a pleasing appearance while still being clear and readable.
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+- I only have one image on the site, which is the page background, so I don't really need an aria text for it as it is not part of the content.
+- I ensured that the buttons have aria attributes on them for ease of use with screen readers.
+- I have tried to use a high-contrast colour scheme to make navigating the web-page easier.
 
 ## AI Tools Usage
 
