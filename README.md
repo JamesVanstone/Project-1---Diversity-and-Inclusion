@@ -97,12 +97,13 @@ Testing on different screen sizes showed that the website is responsive to devic
 
 1. I used chrome developer tools extensively over the course of the project to help identify issues and fix them.
 
-2. When testing on 
-
-3. I found an issue caused by the carousel where the size of the element changes causing elements to be pushed around.
+2. I found an issue caused by the carousel where the size of the element changes causing elements to be pushed around.
+ - I fixed it by simply setting the carousel to a minimum of 330px high.
 
 ### Validation
 I validated the website using the W3C validator for both HTML and CSS
+1. When validating the HTML I found that the script tags were "stray", this was fixed by moving them inside of the body.
+2. One of my aria controls was not pointing to the correct thing. I fixed it.
 
 ## Deployment
 
