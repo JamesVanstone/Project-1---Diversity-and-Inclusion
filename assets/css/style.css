@@ -207,6 +207,7 @@ ol li {
 
 .carousel {
     padding: 10px 35px;
+    min-height: 330px;
 }
 
 .carousel h4 {
