@@ -6,7 +6,7 @@
 The purpose of this project is to create a easy to use mobile-first website to inform the users of the definition and importance of Diversity and Inclusivity, and some of the legal requirements of them by the government.
 
 ### Target Audience
-The target audience consists of two groups of users. People looking for information to educate themselves on basic information, and people looking for more in-depth information.
+The target audience consists of two groups of users. People looking for information to educate themselves on basic facts about diversity and inclusion, and people looking for more in-depth information.
 
 ## User Stories
 
@@ -17,7 +17,7 @@ The target audience consists of two groups of users. People looking for informat
   **Acceptance Criteria:** A clear set of definitions of diversity and inclusivity.
 - **User Story 3:** As a contributor, I want to be able to submit a suggestion to the web-page to improve the information on it.
   **Acceptance Criteria:** Form for submitting feature requests.
-- **User Story 4:** As a business executive, I want to know why diversity is important for my business.
+- **User Story 4:** As a business executive, I want to know why diversity and inclusion are important for my business.
   **Acceptance Criteria:** Clearly stated information about the importance of diversity and inclusion.
 
 ### Should-Have User Stories
