@@ -67,18 +67,11 @@ The target audience consists of two groups of users. People looking for informat
  - Implemented as a card in each of the sections on the main page.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+- **Feature 1:** Links to official government guidance for legal requirements.
+- **Feature 2:** Section for social media links in footer.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
+- **Feature 1:** A user is red-green colour-blind, so I want the site to use high contrast colours to make it easier to navigate.
 
 ## AI Tools Usage
 

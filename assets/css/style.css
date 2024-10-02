@@ -198,7 +198,7 @@ nav .menu-medium li .btn {
 
 ol {
     padding: 0 10px 0 20px;
-    margin:0;
+    margin: 0;
 }
 
 ol li {
@@ -211,7 +211,7 @@ ol li {
 }
 
 .carousel h4 {
-    margin-bottom:2%;
+    margin-bottom: 2%;
     font-size: 1.3rem;
 }
 
@@ -222,7 +222,7 @@ ol li {
     padding: 5vw;
 }
 
-#legal-requirements-section > div {
+#legal-requirements-section>div {
     border-radius: 4px;
     padding: 5vw;
 }
@@ -236,7 +236,7 @@ ol li {
 }
 
 .requirements-list li {
-    margin:0;
+    margin: 0;
 }
 
 .requirements-list li p,
@@ -285,7 +285,7 @@ footer {
     .col-12 {
         padding: 0;
     }
-    
+
     .card {
         padding: 0;
         margin: 10px 0;
@@ -296,4 +296,4 @@ footer {
         padding: 10px 0;
         border-radius: 0;
     }
-  }
+}
