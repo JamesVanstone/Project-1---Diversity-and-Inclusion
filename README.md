@@ -30,8 +30,6 @@ The target audience consists of two groups of users. People looking for informat
 - **User Story:** A user is red-green colour-blind, so I want the site to use high contrast colours to make it easier to navigate.
   **Acceptance Criteria:** High Contrast Colour Scheme that is readable when checked against a colour-blindness test
 
-**Guidance:** Document any optional features that are nice to have but not essential.
-
 ## Design Decisions
 
 ### Wireframes
@@ -67,9 +65,6 @@ The target audience consists of two groups of users. People looking for informat
 
 4. Clearly stated information about the importance of diversity and inclusion.
  - Implemented as a card in each of the sections on the main page.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
 
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Description of the implemented feature.
